@@ -856,9 +856,18 @@
             "ie": {
               "version_added": false
             },
-            "nodejs": {
-              "version_added": true
-            },
+            "nodejs": [
+              {
+                "version_added": "3.0.0",
+                "flags": [
+                  {
+                    "type": "runtime_flag",
+                    "name": "--harmony-rest-parameters"
+                  }
+                ],
+                "notes": "See Node.js <a href='https://github.com/nodejs/node/pull/2022'>pull request 2022</a>."
+              }
+            ],
             "opera": {
               "version_added": "34"
             },
