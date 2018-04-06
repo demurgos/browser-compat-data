@@ -858,7 +858,11 @@
             },
             "nodejs": [
               {
+                "version_added": "57"
+              },
+              {
                 "version_added": "3.0.0",
+                "version_removed": "60",
                 "flags": [
                   {
                     "type": "runtime_flag",
